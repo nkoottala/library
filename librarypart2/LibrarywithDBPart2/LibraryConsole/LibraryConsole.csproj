@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryAssignmentLibrary\LbAssgLibrary.csproj" />
+    <ProjectReference Include="..\LibraryDBConnectLibrary\LibraryDBConnectLibrary.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\LibrarywithDBPart2\\LibraryDBConnectLibrary\\LibraryDBConnectLibrary.csproj": {}
+  },
+  "projects": {
+    "C:\\LibrarywithDBPart2\\LibraryAssignmentLibrary\\LbAssgLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\LibrarywithDBPart2\\LibraryAssignmentLibrary\\LbAssgLibrary.csproj",
+        "projectName": "LbAssgLibrary",
+        "projectPath": "C:\\LibrarywithDBPart2\\LibraryAssignmentLibrary\\LbAssgLibrary.csproj",
+        "packagesPath": "C:\\Users\\nisha\\.nuget\\packages\\",
+        "outputPath": "C:\\LibrarywithDBPart2\\LibraryAssignmentLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nisha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\LibrarywithDBPart2\\LibraryDBConnectLibrary\\LibraryDBConnectLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\LibrarywithDBPart2\\LibraryDBConnectLibrary\\LibraryDBConnectLibrary.csproj",
+        "projectName": "LibraryDBConnectLibrary",
+        "projectPath": "C:\\LibrarywithDBPart2\\LibraryDBConnectLibrary\\LibraryDBConnectLibrary.csproj",
+        "packagesPath": "C:\\Users\\nisha\\.nuget\\packages\\",
+        "outputPath": "C:\\LibrarywithDBPart2\\LibraryDBConnectLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nisha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\LibrarywithDBPart2\\LibraryAssignmentLibrary\\LbAssgLibrary.csproj": {
+                "projectPath": "C:\\LibrarywithDBPart2\\LibraryAssignmentLibrary\\LbAssgLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
